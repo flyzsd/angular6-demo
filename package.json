@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "start": "ng serve --base-href /angular6/ --aot",
+    "build": "ng build --base-href /angular6/ --prod",
+    "test": "ng test --code-coverage --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e --webdriver-update=false"
   },
   "private": true,
   "dependencies": {
