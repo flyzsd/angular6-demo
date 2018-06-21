@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --base-href /angular6/ --aot",
     "build": "ng build --base-href /angular6/ --prod",
-    "test": "ng test --code-coverage --watch=false",
+    "test": "rm -rf ./coverage && ng test --code-coverage=true --watch=false  --source-map=true",
     "lint": "ng lint",
     "e2e": "ng e2e --webdriver-update=false",
     "tsc": "tsc -w"
