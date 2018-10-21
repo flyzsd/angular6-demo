@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import {ShudongModule} from 'shudong';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ShudongModule
   ],
   providers: [],
   bootstrap: [AppComponent]
